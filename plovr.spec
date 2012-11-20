@@ -1,12 +1,13 @@
+%define		rel	0.1
 %include	/usr/lib/rpm/macros.java
 Summary:	plovr: a Closure build tool
 Name:		plovr
 Version:	0.1
-Release:	0.201202.1
+Release:	0.201210.%{rel}
 License:	Apache v2.0
 Group:		Applications/WWW
-Source0:	https://plovr.googlecode.com/files/plovr-4b3caf2b7d84.jar
-# Source0-md5:	-
+Source0:	https://plovr.googlecode.com/files/plovr-eba786b34df9.jar
+# Source0-md5:	20eac8ccc4578676511cf7ccbfc65100
 Source1:	%{name}.sh
 URL:		http://www.plovr.com/
 BuildRequires:	rpm-javaprov

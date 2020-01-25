@@ -1,5 +1,4 @@
 %define		rel	0.1
-%include	/usr/lib/rpm/macros.java
 Summary:	plovr: a Closure build tool
 Name:		plovr
 Version:	0.1
